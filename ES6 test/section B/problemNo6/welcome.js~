@@ -1,0 +1,8 @@
+MyLibrary=(function(){
+    var lib={};
+    function welcome()
+    {
+      return "Hello !";
+    }
+    return lib;
+  })();
