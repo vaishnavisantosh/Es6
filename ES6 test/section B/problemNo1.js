@@ -4,7 +4,7 @@
   for(let i=1;i<=n;i++)
   {
     let num=i;
-    whilelet(num!=0)
+    while(num!=0)
     {
     count = num % 10;
     if(count==0)
