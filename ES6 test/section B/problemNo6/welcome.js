@@ -1,4 +1,4 @@
-export var MyLibrary=(function(){
+export var MyLibrary =(function(){
     var lib={};
     lib.welcome=welcome;
     function welcome()
@@ -7,6 +7,5 @@ export var MyLibrary=(function(){
     }
     return lib;
   })();
-
-
+  
   
