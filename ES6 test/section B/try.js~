@@ -1,0 +1,26 @@
+let arrayOfNumber=[];
+function range(start, end) {
+    let arrayOfNumber1=[];
+
+    for (let i = start; i <= end; i++) {
+        arrayOfNumber1.push(i);
+    }
+    return arrayOfNumber1;
+}
+arrayOfNumber=range(1,100);
+
+
+
+let sortedArray=arrayOfNumber.sort((a,b) => a-b);
+console.log(sortedArray);
+  let index=0;
+
+for(let i=1;i<=10;i++)
+{
+  if(!(sortedArray[index]==i))
+  {
+    console.log(i);
+    break;
+  }
+  index++;
+}
